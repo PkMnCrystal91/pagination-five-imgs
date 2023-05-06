@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #140e38;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  background-color: #b154f0;
+  border-radius: 8px;
+  border: 2px solid #ffa700;
+  padding: 1rem;
+  height: 70%;
+  width: 50%;
+}
+
+.buttons-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: "Barlow", sans-serif;
+  font-size: 2rem;
+  color: #ffa700;
+}
+
+.img-box1 {
+  background-image: url("../imgs/alexander-andrews-fsH1KjbdjE8-unsplash.jpg");
+  border-radius: 4px;
+  background-size: 100% 100%;
+}
+
+.img-box2 {
+  background-image: url("../imgs/page2.jpg");
+  border-radius: 4px;
+  background-size: 100% 100%;
+}
+
+.img-box3 {
+  background-image: url("../imgs/page3.jpg");
+  border-radius: 4px;
+  background-size: 100% 100%;
+}
+
+.img-box4 {
+  background-image: url("../imgs/page4.jpg");
+  border-radius: 4px;
+  background-size: 100% 100%;
+}
+
+.img-box5 {
+  background-image: url("../imgs/page5.jpg");
+  border-radius: 4px;
+  background-size: 100% 100%;
+}
+
+.material-symbols-outlined {
+  color: #ffa700;
+}
+
+.material-symbols-outlined:hover {
+  color: white;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+.disabled-link > span {
+  color: #140e38;
+}
